@@ -656,6 +656,12 @@ progress {
   .container-lg, .container-md, .container-sm, .container {
     max-width: 960px;
   }
+  .img-dg{
+    background-image: url("assets/img/david-2.png");
+    background-size: 3rem;
+    background-repeat: no-repeat;
+  }
+
 }
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
@@ -10995,4 +11001,8 @@ header.masthead h1, header.masthead .h1 {
 }
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+}
+.img-dg{
+  height: 3rem;
+  width: 3rem;
 }
